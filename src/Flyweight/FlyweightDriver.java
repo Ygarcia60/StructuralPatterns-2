@@ -26,7 +26,7 @@ public class FlyweightDriver {
 
         System.out.println("\nFlyweight objects after load: " + CharacterPropertiesFactory.getPoolSize());
 
-        System.out.println("Samr object for the two 1's " + (doc.getCharacterProps(2) == doc.getCharacterProps(3)));
+        System.out.println("Same object for the two 1's " + (doc.getCharacterProps(2) == doc.getCharacterProps(3)));
 
 
     }
